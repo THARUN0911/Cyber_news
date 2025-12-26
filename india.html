@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>India Cyber – Cyber Pulse</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">🛡 <span>CyberPulse</span></div>
+</header>
+
+<div class="tabs">
+  <button onclick="loadNewsByRegion('india','all')">All</button>
+  <button onclick="loadNewsByRegion('india','Data Breach')">Data Breaches</button>
+  <button onclick="loadNewsByRegion('india','Malware')">Malware</button>
+  <button onclick="loadNewsByRegion('india','Vulnerability')">Vulnerabilities</button>
+</div>
+
+<div class="app-layout">
+  <aside class="sidebar">
+    <a href="index.html">📰 Live Feed</a>
+    <a href="india.html" class="active">🇮🇳 India Cyber</a>
+    <a href="bulletin.html">📢 Daily CSB</a>
+    <a href="offline.html">📡 Offline</a>
+    <a href="sources.html">📚 Sources</a>
+  </aside>
+
+  <main class="content">
+    <section class="headline">
+      <h1>India Cyber</h1>
+      <p>Regional advisories and CERT-In updates</p>
+    </section>
+
+    <div id="feed-notice" aria-live="polite"></div>
+    <section id="news-container" class="news-grid"></section>
+  </main>
+</div>
+
+<script src="js/feeds.js"></script>
+<script src="js/app.js"></script>
+<script>
+  // Load India feeds on page load
+  window.addEventListener('load', () => loadNewsByRegion('india'));
+</script>
+</body>
+</html>
