@@ -1,0 +1,236 @@
+[
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "The Hacker News",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://thehackernews.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "BleepingComputer",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.bleepingcomputer.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "SecurityWeek",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.securityweek.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Dark Reading",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.darkreading.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Krebs on Security",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://krebsonsecurity.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Threatpost",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://threatpost.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Infosecurity Magazine",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.infosecurity-magazine.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "CSO Online",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.csoonline.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Help Net Security",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.helpnetsecurity.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "ZDNet Security",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.zdnet.com/topic/security/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "SC Media",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.scmagazine.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Naked Security (Sophos)",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://nakedsecurity.sophos.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "CERT-In",
+    "category": "india",
+    "region": "india",
+    "time": "Today",
+    "url": "https://www.cert-in.org.in/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Indian Cyber Crime Coordination Centre (I4C)",
+    "category": "india",
+    "region": "india",
+    "time": "Today",
+    "url": "https://www.i4c.gov.in/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Ministry of Electronics and IT (MeitY)",
+    "category": "india",
+    "region": "india",
+    "time": "Today",
+    "url": "https://www.meity.gov.in/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "NCIIPC",
+    "category": "india",
+    "region": "india",
+    "time": "Today",
+    "url": "https://nciipc.gov.in/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "CISA",
+    "category": "vulnerability",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.cisa.gov/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "US-CERT",
+    "category": "vulnerability",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.cisa.gov/uscert"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "NVD (NIST)",
+    "category": "vulnerability",
+    "region": "global",
+    "time": "Today",
+    "url": "https://nvd.nist.gov/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Exploit Database",
+    "category": "vulnerability",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.exploit-db.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Malwarebytes Blog",
+    "category": "malware",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.malwarebytes.com/blog"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Kaspersky Securelist",
+    "category": "malware",
+    "region": "global",
+    "time": "Today",
+    "url": "https://securelist.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "CrowdStrike Blog",
+    "category": "malware",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.crowdstrike.com/blog/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Recorded Future",
+    "category": "breach",
+    "region": "global",
+    "time": "Today",
+    "url": "https://www.recordedfuture.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "Have I Been Pwned",
+    "category": "breach",
+    "region": "global",
+    "time": "Today",
+    "url": "https://haveibeenpwned.com/"
+  },
+  {
+    "title": "Cybersecurity Update",
+    "description": "See full article for details.",
+    "source": "NewsData.io",
+    "category": "latest",
+    "region": "global",
+    "time": "Today",
+    "url": "https://newsdata.io/"
+  }
+]
