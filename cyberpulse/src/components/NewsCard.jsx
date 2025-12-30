@@ -3,41 +3,29 @@ export default function NewsCard({
   description,
   source,
   time,
-  badge = "latest",
-  severity,
+  category,
   url
 }) {
-  const openArticle = () => {
-    if (url) {
-      window.open(url, "_blank", "noopener,noreferrer");
-    }
-  };
-
   return (
     <div className="news-card visible">
+      <span className="badge">
+        {(category || "latest").toUpperCase()}
+      </span>
 
-      {badge && (
-        <span className={`badge ${badge}`}>
-          {badge.toUpperCase()}
-        </span>
-      )}
+      {/* SHOW TITLE AS-IS */}
+      <h3>{title}</h3>
 
-      {severity && (
-        <span className={`sev sev-${severity}`}>
-          {severity.toUpperCase()}
-        </span>
-      )}
-
-      <h3>{title || "Cybersecurity Update"}</h3>
-
-      <p>{description || "See full article for details."}</p>
+      <p>{description}</p>
 
       <div className="meta">
-        <span>{source || "Unknown Source"}</span>
-        <span>{time || "Today"}</span>
+        <span>{source}</span>
+        <span>{time}</span>
       </div>
 
-      <button className="read-more" onClick={openArticle}>
+      <button
+        className="read-more"
+        onClick={() => window.open(url, "_blank")}
+      >
         Read more →
       </button>
     </div>

@@ -1,27 +1,27 @@
-import news from "../data/news.json";
+import { useEffect, useState } from "react";
+import { fetchNews } from "../services/fetchNews";
 import NewsCard from "../components/NewsCard";
 
 export default function Latest() {
-  return (
-    <>
-      <div className="headline">
-        <h1>Latest Cybersecurity News</h1>
-        <p>Aggregated from trusted global & Indian sources</p>
-      </div>
+  const [news, setNews] = useState([]);
 
-      <div className="news-grid">
-        {news.map((item, index) => (
-          <NewsCard
-            key={index}
-            title={item.title}
-            description={item.description}
-            source={item.source}
-            time={item.time}
-            badge={item.category}
-            url={item.url}
-          />
-        ))}
-      </div>
-    </>
+  useEffect(() => {
+    fetchNews().then(setNews);
+  }, []);
+
+  return (
+    <div className="news-grid">
+      {news.map((item, i) => (
+        <NewsCard
+          key={i}
+          title={item.title}      // ✅ REAL RSS TITLE
+          description={item.description}
+          source={item.source}
+          time={item.time}
+          category={item.category}
+          url={item.url}
+        />
+      ))}
+    </div>
   );
 }
